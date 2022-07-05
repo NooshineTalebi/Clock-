@@ -21,6 +21,10 @@ body{
     margin-top: 5rem;
 }
 
+.clock .hand {
+    transform: rotate(calc(var(--rotation) * 1deg));
+}
+
 .clock::after{
     content:'';
     position: absolute;
